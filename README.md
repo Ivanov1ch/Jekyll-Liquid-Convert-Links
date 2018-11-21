@@ -4,13 +4,13 @@ Converts links in the .md format to HTML links, regardless of where they are in 
 ---
 layout: post
 title:  "Jekyll-Liquid-Convert-Links"
-description: "[https://github.com/PlantsVsDan/Jekyll-Liquid-Convert-Links](Jekyll-Liquid-Convert-Links) is a Jekyll-Liquid plugin that converts links in the .md format to HTML links, regardless of where they are in your Jekyll post."
+description: "[Jekyll-Liquid-Convert-Links](https://github.com/PlantsVsDan/Jekyll-Liquid-Convert-Links) is a Jekyll-Liquid plugin that converts links in the .md format to HTML links, regardless of where they are in your Jekyll post."
 date: 2018-11-10
 keywords: "PlantsVsDan, Jekyll-Liquid-Convert-Links"
 category: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Generated [https://lipsum.com/](here).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Generated [here](https://lipsum.com/).
 ```
 
 All you need to do to turn those markdown links into HTML links is to include this liquid in your HTML code:
