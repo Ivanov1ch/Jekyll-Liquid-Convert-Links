@@ -25,7 +25,7 @@ module ConvertLinks
     	index = linkData[1]
 
     	lengthToRemove += linkTextData[0].length + linkTextData[1].length
-    	$outputText = $outputText[0 , index] + "<a href='" + linkTextData[0] + "' target='_blank'>" + linkTextData[1] + "</a>" + $outputText[index + lengthToRemove, $outputText.length - 1]
+    	$outputText = $outputText[0 , index] + "<a href='" + linkTextData[1] + "' target='_blank'>" + linkTextData[0] + "</a>" + $outputText[index + lengthToRemove, $outputText.length - 1]
     }
 
     return $outputText
